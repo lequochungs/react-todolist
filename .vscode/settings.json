@@ -1,0 +1,20 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.workingDirectories": ["./"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript", "autoFix": true
+    },
+    {
+      "language": "typescriptreact", "autoFix": true
+    }
+  ]
+}
